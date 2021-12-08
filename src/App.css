@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.isLinkActive{font-weight: bold; color: rgb(81, 255, 0) !important;}
+.fw-bold{font-weight: bold;}
+.list-style-none{list-style: none;}
+.w-10{width: 10% !important;}
+.section-padding{padding: 65px 0 ;}
+.section-padding-bottom{padding-bottom: 65px ;}
+.section-padding-top{padding-top: 65px ;}
+.img{margin-bottom: 16px;}
+.abt-img{background-color: rgb(31, 38, 70);transform: rotate(2deg);}
+.bg-dblue{background: rgba(0 0 100/.8);}
+.bg-green{background: rgba(0 100 0/.9);}
+.border-left{border-left:6px solid}
+.border-white-left{border-color: #fff !important;}
+.border-radium-left{border-color: rgb(81, 255, 0) !important;}
+.img-border{border: 2px solid #000; box-shadow: 0px 0px 10px 7px rgb(238, 236, 240);}
+.img-border:hover{transform: translateY(-8px); transition: .5s;}
+.heading-1{font-weight: bold; letter-spacing: 2px; font-size: clamp(30px, 5vw, 40px);}
+.heading-2{font-weight: 500; letter-spacing: 1px; font-size: clamp(25px, 5vw, 35px);}
+.w-lg-50{width: 50%;}
+.bi-x::before{background: red; color: #fff; border-radius: 50%; cursor: pointer;}
+.task-bg{background: rgba(31, 38, 70); border-radius: 5px;}
+@keyframes move {
+    33.33%{transform: translateY(-50px);}
+    66.66%{transform: translateY(-100px);}
+    100%{transform: translateY(-150px);}
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* About page  */
+.all-sites{border: 2px solid #ddd; position: relative;}
+.all-sites::after{content: ""; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); background-color: rgb(170, 93, 248);
+width: 100%; padding: 15px 0px;}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+@media only screen and (max-width: 1199px){
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+@media only screen and (max-width: 991px){
+.section-padding{padding: 45px 0 ;}
+.section-padding-bottom{padding-bottom: 45px;}
+.section-padding-top{padding-top: 45px;}
+.w-lg-50{width: 100%;}
+.header-info{flex-direction: column;}
+
+
+}
+@media only screen and (max-width: 767px){
+.heading-1::after{width:100px;}
+.border-left{border-left:3px solid}
+
+
+}
+@media only screen and (max-width: 575px){
+.img{margin-bottom: 12px;}
+
 }
