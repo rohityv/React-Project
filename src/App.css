@@ -1,3 +1,7 @@
+body{font-size: 16px; line-height: 1.4; color: #000;font-family: 'Nunito', sans-serif;}
+/* font-family: 'Montserrat', sans-serif; */
+
+
 .isLinkActive{font-weight: bold; color: rgb(81, 255, 0) !important;}
 .fw-bold{font-weight: bold;}
 .list-style-none{list-style: none;}
@@ -14,8 +18,8 @@
 .border-radium-left{border-color: rgb(81, 255, 0) !important;}
 .img-border{border: 2px solid #000; box-shadow: 0px 0px 10px 7px rgb(238, 236, 240);}
 .img-border:hover{transform: translateY(-8px); transition: .5s;}
-.heading-1{font-weight: bold; letter-spacing: 2px; font-size: clamp(30px, 5vw, 40px);}
-.heading-2{font-weight: 500; letter-spacing: 1px; font-size: clamp(25px, 5vw, 35px);}
+.heading-1{font-weight: bold; font-size: clamp(30px, 5vw, 40px);}
+.heading-2{font-weight: 500; font-size: clamp(25px, 5vw, 35px);}
 .w-lg-50{width: 50%;}
 .bi-x::before{background: red; color: #fff; border-radius: 50%; cursor: pointer;}
 .task-bg{background: rgba(31, 38, 70); border-radius: 5px;}

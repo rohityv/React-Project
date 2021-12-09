@@ -24,12 +24,12 @@ export default function Header({title}) {
                     </div>
                     <div className="col-12 col-lg-6 text-end">
                         <ul className="ps-0 mb-0 list-style-none">
-                            <li className="navbar-text"><a rel="noopener" className="text-decoration-none text-white" href="mailto:rohityadav9769@gmail.com" target="_blank"> Email : rohityadav9769@gmail.com</a></li>
-                            <li className="navbar-text"><a rel="noopener" className="text-decoration-none text-white" href="tel:+919769950552">Phone : +91 9769950552/</a><a className="text-decoration-none text-white" href="tel:7021852672">7021852672</a></li>
+                            <li className="navbar-text"><a rel="noreferrer" className="text-decoration-none text-white" href="mailto:rohityadav9769@gmail.com" target="_blank"> Email : rohityadav9769@gmail.com</a></li>
+                            <li className="navbar-text"><a rel="noreferrer" className="text-decoration-none text-white" href="tel:+919769950552">Phone : +91 9769950552/</a><a className="text-decoration-none text-white" href="tel:7021852672">7021852672</a></li>
                             <li className="navbar-text">
-                                <a rel="noopener" className="text-white" href="https://www.linkedin.com/in/rohityv" target="-blank"><i class="bi-linkedin"></i></a>
-                                <a rel="noopener" className="d-inline-block mx-3 text-white" href="https://www.twitter.com/rohi8_cz/" target="-blank"><i className="bi-twitter"></i></a>
-                                <a rel="noopener" className="text-white" href="https://github.com/rohityv/react-project" target="-blank"><i className="bi-github"></i></a>
+                                <a rel="noreferrer" className="text-white" href="https://www.linkedin.com/in/rohityv" target="-blank"><i class="bi-linkedin"></i></a>
+                                <a rel="noreferrer" className="d-inline-block mx-3 text-white" href="https://www.twitter.com/rohi8_cz/" target="-blank"><i className="bi-twitter"></i></a>
+                                <a rel="noreferrer" className="text-white" href="https://github.com/rohityv/react-project" target="-blank"><i className="bi-github"></i></a>
                             </li>
                         </ul>
                     </div>

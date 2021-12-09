@@ -32,7 +32,7 @@ export default function TvShowInfo({allData, nextPage, prevPage, pageCount, isLo
                     <div className="card-body">
                         <h4 className="card-title">{data.name}</h4>
                         <p className="card-text">{`${data.premiered === null ? '-' : data.premiered.substring(0, 4)} to ${data.ended === null ? '-' :data.ended.substring(0, 4)}`}</p>
-                        <a rel="noopener" href={data.url} className="card-link btn btn-info" target='_blank'>Show Info</a>
+                        <a rel="noreferrer" href={data.url} className="card-link btn btn-info" target='_blank'>Show Info</a>
                     </div>
                 </div>
             </div>

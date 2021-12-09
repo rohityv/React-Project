@@ -102,14 +102,14 @@ export default function About() {
                         </div>
                         <div className="col-lg-4 col-sm-6">
                             <div className="external-link-wrapper">
-                                <a href="https://login-rohityv.netlify.app/" className='external-link'>
+                                <a href="https://login-rohityv.netlify.app/" className='external-link' target='-blank' rel="noreferrer">
                                     <img src={externalLink1Img} alt="reset password" className="img-fluid border border-2 " />
                                 </a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-6">
                             <div className="external-link-wrapper">
-                                <a href="https://rohityv.github.io/vaccine-status/" className='external-link'>
+                                <a href="https://rohityv.github.io/vaccine-status/" className='external-link' target='-blank' rel="noreferrer">
                                     <img src={externalLink2Img} alt="vaccine status" className="img-fluid border border-2 " />
                                 </a>
                             </div>

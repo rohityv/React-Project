@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react'
-import { useLocation } from 'react-router-dom'
+// import { useLocation } from 'react-router-dom'
 import Button from './Button'
 
 export default function ToDoList( {title, clickOnAddBtn, openClose} ) {
 
-    const location = useLocation()
+    // const location = useLocation()
 
     return (
         <Fragment>

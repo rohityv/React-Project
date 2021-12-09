@@ -2,7 +2,7 @@ import React, {Fragment, useState} from "react";
 import './App.css'
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { BrowserRouter as Router, Link, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./components/About";
 import Project from "./components/Project";
 // todo list 
@@ -92,7 +92,7 @@ export default function App(){
                     <div className="col-lg-6">
                       <div className="todo-list border border-2 p-4 border-dark">
                         <ToDoList
-                          title={"ToDo List"}
+                          title={"Todo List"}
                           clickOnAddBtn={clickOnAddBtn}
                           openClose={showTask}
                         />
