@@ -7,6 +7,10 @@ import cssImg from "./images/css.jpg"
 import bootstrapImg from "./images/bootstrap.jpg"
 import externalLink1Img from "./images/login-rohityv.jpg"
 import externalLink2Img from "./images/vaccine-status.jpg"
+import externalLink3Img from "./images/rohityv-chatbot.jpg"
+import externalLink4Img from "./images/rohityv-reactjs-project.jpg"
+import externalLink5Img from "./images/smartpartspc.jpg"
+import externalLink6Img from "./images/vitalitywellnessclinic.jpg"
 
 export default function About() {
 
@@ -66,27 +70,27 @@ export default function About() {
                         <div className="col-12">
                             <h2 className="text-center mb-lg-5 mb-4 heading-1">Skills</h2>
                         </div>
-                        <div className="col-lg-3 col-sm-6">
+                        <div className="col-lg-3 col-6">
                             <div className="img">
                                 <img className="img-fluid img-border" src={htmlImg} alt="html" />
                             </div>
                         </div>
-                        <div className="col-lg-3 col-sm-6">
+                        <div className="col-lg-3 col-6">
                             <div className="img">
                                 <img className="img-fluid img-border" src={jsImg} alt="javascript" />
                             </div>
                         </div>
-                        <div className="col-lg-3 col-sm-6">
+                        <div className="col-lg-3 col-6">
                             <div className="img">
                                 <img className="img-fluid img-border" src={reactImg} alt="react" />
                             </div>
                         </div>
-                        <div className="col-lg-3 col-sm-6">
+                        <div className="col-lg-3 col-6">
                             <div className="img">
                                 <img className="img-fluid img-border" src={cssImg} alt="css" />
                             </div>
                         </div>
-                        <div className="col-lg-3 col-sm-6">
+                        <div className="col-lg-3 col-6">
                             <div className="img">
                                 <img className="img-fluid img-border" src={bootstrapImg} alt="bootstrap" />
                             </div>
@@ -96,21 +100,21 @@ export default function About() {
             </section>
             <section className="section-padding-bottom">
                 <div className="container">
-                    <div className="row border-left g-4">
+                    <div className="row border-left border-radium-left g-4">
                         <div className="col-12">
                             <h2 className="text-center mb-lg-5 mb-4 heading-1">Latest Tasks</h2>
                         </div>
                         <div className="col-lg-4 col-sm-6">
                             <div className="external-link-wrapper">
                                 <a href="https://login-rohityv.netlify.app/" className='external-link' target='-blank' rel="noreferrer">
-                                    <img src={externalLink1Img} alt="reset password" className="img-fluid border border-2 " />
+                                    <img src={externalLink1Img} alt="reset password" className="img-fluid border border-dark border-2 " />
                                 </a>
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-6">
                             <div className="external-link-wrapper">
                                 <a href="https://rohityv.github.io/vaccine-status/" className='external-link' target='-blank' rel="noreferrer">
-                                    <img src={externalLink2Img} alt="vaccine status" className="img-fluid border border-2 " />
+                                    <img src={externalLink2Img} alt="vaccine status" className="img-fluid border border-dark border-2 " />
                                 </a>
                             </div>
                         </div>
@@ -124,19 +128,32 @@ export default function About() {
                             <h2 className="text-center mb-lg-5 mb-4 heading-1">More Sites And Tasks</h2>
                         </div>
                         <div className="col-lg-4 col-sm-6">
-                            <div className="all-sites"><iframe title="web1" src= "https://smartpartspc.com/" height="350" width="100%" scrolling="yes"></iframe></div>
+                            <div className="external-link-wrapper">
+                                <a href="https://smartpartspc.com/" className='external-link' target='-blank' rel="noreferrer">
+                                    <img src={externalLink5Img} alt="vaccine status" className="img-fluid border border-dark border-2 " />
+                                </a>
+                            </div>
                         </div>
                         <div className="col-lg-4 col-sm-6">
-                            <div className="all-sites"><iframe title="web2" src= "https://vitalitywellnessclinic.com/" height="350" width="100%" scrolling="yes"></iframe></div>
+                            <div className="external-link-wrapper">
+                                <a href="https://vitalitywellnessclinic.com/" className='external-link' target='-blank' rel="noreferrer">
+                                    <img src={externalLink6Img} alt="vaccine status" className="img-fluid border border-dark border-2 " />
+                                </a>
+                            </div>
                         </div>
                         <div className="col-lg-4 col-sm-6">
-                            <div className="all-sites"><iframe title="web3" src= "https://rohityv.github.io/chatbot/"height="350" width="100%" scrolling="yes"></iframe></div>
+                            <div className="external-link-wrapper">
+                                <a href="https://rohityv.github.io/reactjs-project/" className='external-link' target='-blank' rel="noreferrer">
+                                    <img src={externalLink4Img} alt="vaccine status" className="img-fluid border border-dark border-2 " />
+                                </a>
+                            </div>
                         </div>
                         <div className="col-lg-4 col-sm-6">
-                            <div className="all-sites"><iframe title="web4" src= "https://rohityv.github.io/reactjs-project/"height="350" width="100%" scrolling="yes"></iframe></div>
-                        </div>
-                        <div className="col-lg-4 col-sm-6">
-                            <div className="all-sites"><iframe title="web5" src= "https://rohityv.github.io/weq-task/" height="350" width="100%" scrolling="yes"></iframe></div>
+                            <div className="external-link-wrapper">
+                                <a href="https://rohityv.github.io/chatbot/" className='external-link' target='-blank' rel="noreferrer">
+                                    <img src={externalLink3Img} alt="vaccine status" className="img-fluid border border-dark border-2 " />
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
