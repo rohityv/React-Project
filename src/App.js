@@ -77,7 +77,7 @@ export default function App(){
                   <div className="row border-left border-radium-left">
                     <div className="col">
                       <PhoneBookForm
-                        studentTable="Student Table"
+                        studentTable="Info Table"
                         addEntryToPhoneBook={addEntryToPhoneBook}
                       />
                       <InformationTable tableData={addData} />
