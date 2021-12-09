@@ -5,6 +5,8 @@ import jsImg from "./images/javascript.jpg"
 import reactImg from "./images/react.jpg"
 import cssImg from "./images/css.jpg"
 import bootstrapImg from "./images/bootstrap.jpg"
+import externalLink1Img from "./images/login-rohityv.jpg"
+import externalLink2Img from "./images/vaccine-status.jpg"
 
 export default function About() {
 
@@ -87,6 +89,29 @@ export default function About() {
                         <div className="col-lg-3 col-sm-6">
                             <div className="img">
                                 <img className="img-fluid img-border" src={bootstrapImg} alt="bootstrap" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="section-padding-bottom">
+                <div className="container">
+                    <div className="row border-left g-4">
+                        <div className="col-12">
+                            <h2 className="text-center mb-lg-5 mb-4 heading-1">Latest Tasks</h2>
+                        </div>
+                        <div className="col-lg-4 col-sm-6">
+                            <div className="external-link-wrapper">
+                                <a href="https://login-rohityv.netlify.app/" className='external-link'>
+                                    <img src={externalLink1Img} alt="reset password" className="img-fluid border border-2 " />
+                                </a>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-sm-6">
+                            <div className="external-link-wrapper">
+                                <a href="https://rohityv.github.io/vaccine-status/" className='external-link'>
+                                    <img src={externalLink2Img} alt="vaccine status" className="img-fluid border border-2 " />
+                                </a>
                             </div>
                         </div>
                     </div>
